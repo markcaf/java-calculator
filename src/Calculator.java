@@ -13,6 +13,8 @@ public class Calculator implements ActionListener{
 	JButton decButton, equButton, delButton, clrButton;
 	JPanel panel;
 	
+	Font myFont = new Font("Montserrat", Font.BOLD, 30);
+	
 	Calculator(){
 		
 	}
