@@ -106,6 +106,9 @@ public class Calculator implements ActionListener{
 			}
 		}
 		
+		if(e.getSource() == decButton) {
+			textfield.setText(textfield.getText().concat("."));
+		}
 	}
 
 }
